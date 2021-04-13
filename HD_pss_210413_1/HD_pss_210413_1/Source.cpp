@@ -28,7 +28,7 @@ void main() {
 
 	printf("hello world");
 
-	
+
 	*/
 	/*int a = 1;
 	while (a < 3) {
@@ -37,9 +37,9 @@ void main() {
 		a++;
 	}*/
 
-		
+
 	/*
-	
+
 	int nUm = 1;
 		while (nUm <= 4) {
 			int pnum = 1;
@@ -47,55 +47,56 @@ void main() {
 				printf("%d", pnum);
 				pnum = pnum +1;
 			} nUm++;
-		
+
 			printf("\n");
 		}
 
 	fgetc(stdin);
 
 }
-    */
+	*/
 
 
-/*
-for (int = i; i < 5; i++) {
-	for (int j = 1; j <= i; j++) {
-		printf("*");
+	/*
+	for (int = i; i < 5; i++) {
+		for (int j = 1; j <= i; j++) {
+			printf("*");
 
+		}
+		pintf("\n");
 	}
-	pintf("\n");
-}
 
-for (int i = 3; i >= 0; i--) {
+	for (int i = 3; i >= 0; i--) {
 
-	for (int k = 1; k <= i; k++) {
-		printf("*")
+		for (int k = 1; k <= i; k++) {
+			printf("*")
+		}
 	}
-}
 
-*/
+	*/
 
-int i = 1;
-
-while (i<5) {
-	int j = 1;
-	while (j<=1) {
-		printf("%d", j);
-		j++;
+	int i = 1;
+	while (i < 5) {
+		int j = 1;
+		while (j <= i) {
+			printf("%d", j);
+			j++;
+		}
+		i++;
+		printf("\n");
 	}
-	i++;
-	printf("\n");
-}
 
 	int i = 3;
-while (i >=1) {
-	int k = 1;
-	while (k<=i) {
-		printf("%d", k);
-		k++;
+	while (i >= 1) {
+		int k = 1;
+		while (k <= i) {
+			printf("%d", k);
+			k++;
+
+		}
+		i--;
+		printf("\n");
 
 	}
-	i--;
-	printf("\n");
 	fgetc(stdin);
 }
